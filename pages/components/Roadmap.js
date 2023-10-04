@@ -4,11 +4,13 @@ function Roadmap() {
   return (
     <div className="h-full mb-64">
       <div className="flex justify-center items-center pt-10">
-        <p className="text-4xl">Roadmap</p>
+        <div className="bg-black bg-opacity-80 px-4 py-1 rounded-xl">
+          <p className="text-4xl text-white">Roadmap</p>
+        </div>
       </div>
 
       <div className="flex justify-evenly items-center mt-32">
-        <div className="flex flex-col border-2 border-black w-96 rounded-lg p-6 bg-black bg-opacity-40">
+        <div className="flex flex-col border-2 border-black w-96 rounded-lg p-6 bg-black bg-opacity-80">
           <p className="text-xl mb-4 text-white">Phase 1</p>
           <li className="text-white mb-2">
             Our table will launch a clean website with a lot of effort. You can
@@ -25,7 +27,7 @@ function Roadmap() {
             Our table starts a solidity course to create the $Table token
           </li>
         </div>
-        <div className="flex flex-col border-2 border-black w-96 rounded-lg p-6 py-12 bg-black bg-opacity-40">
+        <div className="flex flex-col border-2 border-black w-96 rounded-lg p-6 py-9 bg-black bg-opacity-80">
           <p className="text-xl mb-4 text-white">Phase 2</p>
           <li className="text-white mb-4">
             Our table will start marketing and will work with a lot of
@@ -37,7 +39,7 @@ function Roadmap() {
             implement top-notch measures to ensure your investments are safe.
           </li>
         </div>
-        <div className="flex flex-col border-2 border-black w-96 rounded-lg p-6 py-[70px] bg-black bg-opacity-40">
+        <div className="flex flex-col border-2 border-black w-96 rounded-lg p-6 py-[70px] bg-black bg-opacity-80">
           <p className="text-xl mb-4 text-white">Phase 3</p>
           <li className="text-white mb-4">
             Our table will start to buy every dip and burn every $Table token
