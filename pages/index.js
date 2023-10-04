@@ -10,8 +10,8 @@ export default function Home() {
           <img src="/table-photo.gif" alt="" />
           <div className="w-3/4 text-center mt-5">
             <p className="text-xl">
-              Welcome to the table of infinite wisdom and mediocre snacks. We've
-              got a PhD in laughter and a master's degree in good company. Take
+              Welcome to the table of infinite wisdom and mediocre snacks. We&lsquo;ve
+              got a PhD in laughter and a master&lsquo;s degree in good company. Take
               a seat and prepare for a culinary adventure (or at least a decent
               meal). It&apos;s not just a coin; it&apos;s a path to financial
               wisdom. Enjoy
