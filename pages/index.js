@@ -63,22 +63,22 @@ export default function Home() {
           alt=""
         />
         <img
-          className="absolute -z-10 opacity-25 top-0 left-10 shadow-black shadow-lg"
+          className="absolute -z-10 opacity-25 top-0 left-10 shadow-black shadow-lg max-[1200px]:hidden"
           src="/IMG_4219.jpg"
           alt=""
         />
         <img
-          className="absolute -z-10 opacity-25 bottom-[370px] left-10 shadow-black shadow-lg"
+          className="absolute -z-10 opacity-25 bottom-[370px] left-10 shadow-black shadow-lg max-[1200px]:hidden"
           src="/IMG_4223.jpg"
           alt=""
         />
         <img
-          className="absolute -z-10 opacity-25 -bottom-7 left-10 w-96 shadow-black shadow-lg"
+          className="absolute -z-10 opacity-25 -bottom-7 left-10 w-96 shadow-black shadow-lg max-[450px]:hidden"
           src="/4jgrzz.jpg"
           alt=""
         />
         <img
-          className="absolute -z-10 opacity-25 -bottom-7 left-[450px] w-[580px] shadow-black shadow-lg"
+          className="absolute -z-10 opacity-25 -bottom-7 left-[450px] w-[580px] shadow-black shadow-lg max-[1200px]:hidden"
           src="/7c2705cc370a7c9463c784d058dfadd2.jpg"
           alt=""
         />
