@@ -26,14 +26,22 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-between items-center mt-10">
-            <Link href="https://twitter.com/tablecoinerc20">
+            <Link
+              href="https://twitter.com/tablecoinerc20"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 className="w-7 cursor-pointer mr-10"
                 src="/logo/twAsset_21.svg"
                 alt=""
               />
             </Link>
-            <Link href="https://t.me/TableEthErc">
+            <Link
+              href="https://t.me/TableEthErc"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img
                 className="w-7 cursor-pointer"
                 src="/logo/tgAsset_22.svg"
