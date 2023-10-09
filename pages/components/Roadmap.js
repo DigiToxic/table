@@ -23,9 +23,6 @@ function Roadmap() {
           <li className="text-white mb-2">
             Our table will make debut on major exchanges.
           </li>
-          <li className="text-white ">
-            Our table starts a solidity course to create the $Table token
-          </li>
         </div>
         <div className="flex flex-col border-2 border-black w-96 rounded-lg p-6 py-9 bg-black bg-opacity-80 max-[1200px]:w-5/6 max-[1200px]:mb-10">
           <p className="text-xl mb-4 text-white">Phase 2</p>
