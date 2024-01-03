@@ -18,7 +18,14 @@ export default function Home() {
               path to financial wisdom. Enjoy
             </p>
           </div>
-
+          <div className="flex justify-between items-center w-72 mt-10">
+            <div className="bg-black px-3 py-0.5 rounded-lg cursor-pointer">
+              <p className="text-white text-lg">Birdeye</p>
+            </div>
+            <div className="bg-black px-3 py-0.5 rounded-lg cursor-pointer">
+              <p className="text-white text-lg">Solscan</p>
+            </div>
+          </div>
           <div className="flex justify-between items-center mt-10">
             <Link
               href="https://twitter.com/TableSolana"
