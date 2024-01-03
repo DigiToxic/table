@@ -1,5 +1,6 @@
 import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
+import Utility from "./components/Utility";
 import Link from "next/link";
 
 export default function Home() {
@@ -17,17 +18,10 @@ export default function Home() {
               path to financial wisdom. Enjoy
             </p>
           </div>
-          <div className="flex justify-between items-center w-72 mt-10">
-            <div className="bg-black px-3 py-0.5 rounded-lg cursor-pointer">
-              <p className="text-white text-lg">Dextool</p>
-            </div>
-            <div className="bg-black px-3 py-0.5 rounded-lg cursor-pointer">
-              <p className="text-white text-lg">Etherscan</p>
-            </div>
-          </div>
+
           <div className="flex justify-between items-center mt-10">
             <Link
-              href="https://twitter.com/tablecoinerc20"
+              href="https://twitter.com/TableSolana"
               rel="noreferrer"
               target="_blank"
             >
@@ -38,7 +32,7 @@ export default function Home() {
               />
             </Link>
             <Link
-              href="https://t.me/TableEthErc"
+              href="https://t.me/TableSolana"
               rel="noreferrer"
               target="_blank"
             >
@@ -54,7 +48,8 @@ export default function Home() {
 
       <div className="relative">
         <Roadmap />
-        <Tokenomics />
+        <Utility />
+        {/**<Tokenomics /> */}
         <img
           className="absolute -z-10 opacity-25 top-0 right-[430px] w-[460px]"
           src="/IMG_4222.jpg"
